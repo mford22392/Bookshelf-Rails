@@ -1,6 +1,5 @@
 class Api::V1::AuthorsController < ApplicationController
   before_action :set_author, only: [:show, :update, :destroy]
-
   # GET /authors
   # GET /authors.json
   def index
